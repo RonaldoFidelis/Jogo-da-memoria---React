@@ -38,3 +38,21 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.jogo-da-memoria {
+  padding: 1rem;
+}
+.jogo-conteudo {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.jogo-carta{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.carta {
+
+}

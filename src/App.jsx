@@ -1,10 +1,9 @@
+import { Jogo } from "./componente/Jogo"
 
 function App() {
   return (
     <div>
-      <h1>
-        Jogo da memoria
-      </h1>
+      <Jogo />
     </div>
   )
 }
